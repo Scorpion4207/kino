@@ -25,7 +25,7 @@ export const Header = () => {
           <p className="logo__title">Фильмы</p>
           <IconButton
             onClick={() => {
-              handleClick("/login");
+              handleClick("/kino/login");
             }}
             aria-label="account"
           >
