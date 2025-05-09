@@ -24,7 +24,7 @@ export const SendTokenPopUp = ({ setIsTokenSentToEmail }: SendTokenPopUpProps) =
   };
 
   const handleClickCloseModal = () => {
-    navigate("/");
+    navigate("/kino/");
   };
 
   return (

@@ -28,7 +28,7 @@ export const MovieСard = ({
   };
 
   const handleChangePage = () => {
-    navigate(`/film/${idMovie}`);
+    navigate(`/kino/film/${idMovie}`);
     dispatch(setDetailsCreditsIdle());
   };
 

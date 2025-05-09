@@ -5,9 +5,9 @@ import { PopUp } from "../components/pop-up/pop-up";
 
 export const AppRouts = () => {
   const navigationRoutes = [
-    { path: "/", element: <MainPage /> },
-    { path: "/film/:idMovie", element: <MovieInfo /> },
-    { path: "/login", element: <PopUp /> },
+    { path: "/kino/", element: <MainPage /> },
+    { path: "/kino/film/:idMovie", element: <MovieInfo /> },
+    { path: "/kino/login", element: <PopUp /> },
   ];
   return (
     <Routes>
