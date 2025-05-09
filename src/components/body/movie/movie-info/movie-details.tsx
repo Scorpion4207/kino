@@ -51,7 +51,7 @@ export const MovieDetails = ({ detail, favoriteValue, idMovie }: MovieDetailsPro
       </Stack>
       <IconButton
         onClick={() => {
-          handleChangePage("/kino/");
+          handleChangePage("/");
         }}
         sx={{ marginBottom: "20px" }}
       >
