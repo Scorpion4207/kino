@@ -18,7 +18,7 @@ export const EnterTokenPopUp = ({ setIsTokenSentToEmail }: EnterTokenPopUpProps)
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (loading === "succeeded") navigate("/kino/");
+    if (loading === "succeeded") navigate("/");
   }, [loading]);
 
   const handleClick = () => {
