@@ -13,7 +13,7 @@ if (!root) {
 
 createRoot(root).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/kino">
       <Provider store={store}>
         <Kinopoisk />
       </Provider>
